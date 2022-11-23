@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2rem;
 }
 
 .App-logo {
@@ -26,6 +27,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App #show-button {
+  margin: 2rem 0;
+  background-color: blue;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: white;
+  
+}
+
+.App #show-button:hover {
+  background-color:rgb(67, 67, 255);
+  cursor: pointer;
+  
 }
 
 @keyframes App-logo-spin {
